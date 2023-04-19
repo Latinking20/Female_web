@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulario de Registro</title>
+</head>
+<body>
+    <img src="Img/logo.jpg" style="border-radius: 8px;" width="120px" class="avatar" >
+    <br>
+    <br>
+    <center><img src="Img/Fashion.jpg" width="50%"></center>
+     <br>
+     <center><h1>REGISTRO EN LINEA</h1></center>
+    <form action="#">
+       <table>
+       <label for="item">Seleccione item</label>
+       <select name="item">
+        <option value="cliente">Cliente</option>
+        <option value="proveedor">Proveedor</option>
+      </select>
+      <br>
+      <br>
+      <div class="id">
+        <label for="id">Ingrese su documento</label>
+        <input type="id" name="id" placeholder="ingrese el id ">
+      </div>
+       <br>
+        <div>
+        <label for="name">Escriba su nombre</label>
+        <input type="nombre" name="nombre" placeholder="Ingrese su nombre completo"> 
+        </div>
+       <br>
+       <div class="date">
+        <label for="date">Fecha de nacimiento</label>
+        <input type="date" name="fecha de nacimiento" placeholder="Ingrese su fecha de nacimiento">
+       </div>
+       <br>
+       <div class="adress">
+        <label for="adress">Escriba su direccion</label>
+        <input type="direccion" name="domicilio" placeholder="Ingrese su domicilio">
+       </div>
+       <br>
+       <div class="telefono">
+        <label for="telphone">Numero de contacto</label>
+        <input type="telefono" name="telphone" placeholder="celular o fijo">
+       </div>
+       <br>
+       <input type="submit" style="border-radius: 6px;" class="boton" value="Registro">
+       <input type="submit" style="border-radius: 6px;" class="boton" value="Consutar Registro">
+      </table>
+      </form>
+
+      <style>
+        body{
+          background-color: pink;
+        }
+        h1{
+          color: red;
+          font-size: 30px;
+        }
+        form{
+          background-color: white;
+          border: 2px solid;
+          color: red;
+          font-size: 20px;
+          width: 820px;
+          top: 55%;
+          left: 20%;
+          text-align: center;
+          position: relative;
+        }
+        .boton{
+          background-color: blue;
+          color: white;
+          height: 30px;
+          width: 130px;
+          font-size: 15px;
+        }
+      </style>
+</body>
+</html>
